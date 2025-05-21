@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATIVIDADE_DA_PROVA_2
+{
+    internal class Pilha
+    {
+        using System.Collections.Generic;
+
+namespace ProjetoEstruturas.Estruturas
+    {
+        public class Pilha
+        {
+            private Stack<int> pilha;
+
+            public Pilha()
+            {
+                pilha = new Stack<int>();
+            }
+
+            public void Empilhar(int valor)
+            {
+                pilha.Push(valor);
+            }
+
+            public int Desempilhar()
+            {
+                return pilha.Count > 0 ? pilha.Pop() : throw new InvalidOperationException("Pilha vazia");
+            }
+
+            public void Exibir()
+            {
+                Console.WriteLine("Pilha:");
+                foreach (var item in pilha)
+                    Console.Write(item + " ");
+                Console.WriteLine();
+            }
+        }
+    }
+
+}
+}

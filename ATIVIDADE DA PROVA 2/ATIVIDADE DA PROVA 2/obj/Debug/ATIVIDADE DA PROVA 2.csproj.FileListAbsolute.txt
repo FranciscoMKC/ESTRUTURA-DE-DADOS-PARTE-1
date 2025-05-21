@@ -1,0 +1,7 @@
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\bin\Debug\ATIVIDADE DA PROVA 2.exe.config
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\bin\Debug\ATIVIDADE DA PROVA 2.exe
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\bin\Debug\ATIVIDADE DA PROVA 2.pdb
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\obj\Debug\ATIVIDADE DA PROVA 2.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\obj\Debug\ATIVIDADE DA PROVA 2.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\obj\Debug\ATIVIDADE DA PROVA 2.exe
+C:\Users\Aluno\source\repos\ATIVIDADE DA PROVA 2\ATIVIDADE DA PROVA 2\obj\Debug\ATIVIDADE DA PROVA 2.pdb
