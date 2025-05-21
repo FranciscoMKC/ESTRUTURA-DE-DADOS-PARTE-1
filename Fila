@@ -1,0 +1,32 @@
+using System.Collections.Generic;
+
+namespace ProjetoEstruturas.Estruturas
+{
+    public class Fila
+    {
+        private Queue<int> fila;
+
+        public Fila()
+        {
+            fila = new Queue<int>();
+        }
+
+        public void Enfileirar(int valor)
+        {
+            fila.Enqueue(valor);
+        }
+
+        public int Desenfileirar()
+        {
+            return fila.Count > 0 ? fila.Dequeue() : throw new InvalidOperationException("Fila vazia");
+        }
+
+        public void Exibir()
+        {
+            Console.WriteLine("Fila:");
+            foreach (var item in fila)
+                Console.Write(item + " ");
+            Console.WriteLine();
+        }
+    }
+}
