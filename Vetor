@@ -1,0 +1,26 @@
+namespace ProjetoEstruturas.Estruturas
+{
+    public class Vetor
+    {
+        private int[] elementos;
+
+        public Vetor(int tamanho)
+        {
+            elementos = new int[tamanho];
+        }
+
+        public void Preencher(int[] valores)
+        {
+            for (int i = 0; i < elementos.Length && i < valores.Length; i++)
+                elementos[i] = valores[i];
+        }
+
+        public void Exibir()
+        {
+            Console.WriteLine("Vetor:");
+            foreach (var item in elementos)
+                Console.Write(item + " ");
+            Console.WriteLine();
+        }
+    }
+}
